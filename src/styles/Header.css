@@ -1,0 +1,49 @@
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space out the items (logo, nav, cart) */
+    align-items: center;            /* Align items vertically */
+    background-color: #333;         /* Dark background to match the clean theme */
+    color: white;                   /* White text color */
+    padding: 15px 30px;             /* Padding for top/bottom and left/right */
+}
+
+/* Logo Styling */
+.header .logo {
+    font-size: 36px;                /* Make the logo font larger */
+    font-weight: bold;              /* Make logo bold */
+    color: #FF6347;                 /* Bright color (tomato) to make it pop */
+    text-decoration: none;          /* Remove underline from logo */
+    letter-spacing: 3px;            /* Increase letter spacing */
+    text-transform: uppercase;      /* Make it uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+/* Navigation Links Styling */
+.header .nav-links {
+    display: flex;
+    gap: 20px;                      /* Space out the navigation links */
+}
+
+.header .nav-links a {
+    text-decoration: none;          /* Remove underline from links */
+    color: white;                   /* White text color */
+    font-size: 18px;                 /* Set the font size */
+    transition: color 0.3s ease;     /* Smooth transition for hover effect */
+}
+
+.header .nav-links a:hover {
+    color: #FF6347;                 /* Change color on hover */
+}
+
+/* Cart Icon Styling */
+.header .cart-icon {
+    font-size: 24px;                /* Cart icon font size */
+    cursor: pointer;                /* Cursor pointer for the icon */
+    transition: color 0.3s ease;     /* Smooth transition for hover effect */
+}
+
+.header .cart-icon:hover {
+    color: #f1f1f1;                 /* Change color on hover */
+}
